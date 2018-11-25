@@ -1,0 +1,32 @@
+Phase 2
+As you read the chapters in section 2, you will learn new skills that you can use to enhance your website, 
+either by adding to an existing page or by adding another page to your site. 
+Here are some ideas for those enhancements.
+
+Chapter 9: Images
+Add links that consist of images.
+Create and add a favicon.
+Add an image to a figure that includes a caption.
+Add an image rollover using background images. rollover on main, other, other2
+Add an image map that links to two or more different pages. *new page w big minimal wallpaper anchoring 
+to other section on same page
+
+Chapter 10: Tables
+Add a table that presents tabular data to the site.
+
+Chapter 11: Forms - (mail page) (get method)
+Add a form that lets the user enter first name, last name, email address, and comments along with Reset and 
+Submit buttons. Of course, the data won’t be processed because there’s no client-side or server-side script 
+for doing that. 
+
+*create page for this and add method as well as form element (get, push, etc)*
+However, the data should be submitted to a page that has a link back to the home page. 
+Also, the data that is passed to the page should be visible in the URL for the page.
+
+Add video on asides
+Chapter 12: Audio and video
+Add audio or video to your site by embedding the players or files in your pages.
+
+Chapter 13: Fonts and printing
+Use an embedded font in your site.
+Create a style sheet for printing the home page of your site in a readable form.
