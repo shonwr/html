@@ -1,0 +1,33 @@
+Phase 3
+
+Change bread crumb color 
+
+
+left and right animation on nav icon of current page 
+Chapter 14: CSS3 transitions, transforms, filters, and animation
+Add a transition to your site or a transform that uses a transition.
+Add an animation to your site.
+
+Chapter 15: JavaScript and jQuery
+Add one or more of the following elements to your site:
+
+The current date (@ nav next to home button)
+A Print button that will print the home page of your site
+An image rollover
+Thumbnail images and image swaps
+A slide show
+
+Chapter 16: jQuery UI and jQuery plugins
+Add a widget or a plugin.
+
+Use jQuery UI widgets to add one or more of the following features to your site:
+
+An accordion
+Tabbed data
+A dialog box
+A button
+Use jQuery plugins to add one or more of the following features to your site:
+
+Thumbnail images and lightboxes
+A carousel
+A slide show

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home</title>
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="styles/content2.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	
+	<link rel="stylesheet" href="jquery-ui-1.11.2.custom/jquery-ui.min.css">
+	
+	<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script src="jquery-ui-1.11.2.custom/jquery-ui.min.js"></script>
+	
+</head>
+<body>
+	<header>
+		<nav>
+				<a class="icon" href="index.html"><img src="images/basic_home.png" alt="home" width="32px" height="32px"></a>
+			
+				<li><a href="other.html"><img src="images/basic_webpage_img_txt.png" width="32px" height="32px" alt="other"></a></li>
+				
+				<li><a href="other2.html"><img src="images/basic_webpage_txt.png" alt="other 2" width="32px" height="32px"></a></li>
+			
+				<li><a href="images.html"><img src="images/basic_picture_multiple.png" alt="images" width="32px" height="32px" alt="other 2"></a></li>
+			
+				<li><a href="table.html"><img src="images/ecommerce_graph3.png" alt="table" width="32px" height="32px"></a></li>
+			
+				<li><a href="mail.html"><img src="images/basic_mail_open_text.png" alt="mail" width="30px" height="30px" alt="mail"></a></li>
+			
+		</nav>
+	</header>
+	
+	<div class="bread-crumbs">
+		You are here: 
+		<a href="index.html">Home</a>»
+		<a href="other.html">Other</a>»
+		<a href="other2.html">Other 2</a>»
+		<a href="images.html">Image Map</a>»
+		<a href="table.html">Table</a>
+		
+		
+		<span class="getDate">
+		 <script>
+			 var today = new Date();
+			 document.write("Today's date: ");
+			 document.write(today.toDateString());
+        </script>
+		</span>
+	</div>
+	
+	<main>
+		<section>
+			<h1>Table</h1><br>
+			<h3>Modern home furniture</h3>
+			<table>
+				<thead>
+					<tr>
+						<th rowspan="3">Workspace</th>
+						<th>Living</th>
+						<th>Shop</th>
+						<th class="right">Cost</th>
+					</tr>
+				</thead>
+				
+				<tbody>
+					<tr>
+						<th rowspan="3" class="title">Desk</th>
+						<td>Wood</td>
+						<td>Ikea</td>
+						<td class="right">65</td>
+					</tr>
+					<tr>
+						<td>Glass</td>
+						<td>Home Depot</td>
+						<td class="right">85</td>
+					</tr>
+					<tr>
+						<td>Marble</td>
+						<td>Lowes</td>
+						<td class="right">50</td>
+					</tr>
+					<tr>
+						<th rowspan="2" class="title">Chair</th>
+						<td>Office</td>
+						<td>Staples</td>
+						<td class="right">70</td>
+					</tr>
+					<tr>
+						<td>Lounge</td>
+						<td>Living Spaces</td>
+						<td class="right">45</td>
+					</tr>
+					<tr>
+						<th rowspan="2" class="title">Computer</th>
+						<td>Windows</td>
+						<td>Microsoft</td>
+						<td class="right">100</td>
+					</tr>
+					<tr>
+						<td>Mac</td>
+						<td>Apple Store</td>
+						<td class="right">100</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<th class="right" colspan="3">Total</th>
+					<th class="right">515</th>
+				</tfoot>
+			</table>
+
+				<div id="tabs">
+			<ul>
+				<li><a href="#tabs-1">Desk</a></li>
+				<li><a href="#tabs-2">Chair</a></li>
+				<li><a href="#tabs-3">Computer</a></li>
+			</ul>
+			<div id="tabs-1">
+				<h2>Desk</h2>
+				<ul>
+					<li><a href="https://www.ikea.com/ms/en_US/usearch/?query=wood%20table">Ikea Wooden Desk</a></li>
+					
+					<li><a href="https://www.ikea.com/ms/en_US/usearch/?query=Glass%20Desk">Ikea Glass Desks</a></li>
+					
+					<li><a href="https://www.wayfair.com/furniture/sb1/marble-desks-c1780384-a333~450539.html">Wayfair Marble Desks</a></li>
+				</ul>
+			
+			</div>
+			
+			<div id="tabs-2">
+				<h2>Chair</h2>
+				<ul>
+					<li><a href="https://www.ikea.com/ms/en_US/usearch/?query=Office%20Chair">Ikea Office Chairs</a></li>
+				
+					<li><a href="https://www.ikea.com/ms/en_US/usearch/?query=Lounge%20Chair">Ikea Lounge Chairs</a></li>
+				</ul>
+			</div>
+			
+			<div id="tabs-3"> 
+				<h2>Computer</h2>
+				<ul>
+					<li><a 	href="https://www.newegg.com/Refurbished/EventSaleStore/ID-6674?cm_sp=Homepage-HeroBottom-_-microsoft%2f18-3132-_-http%3a%2f%2fpromotions.newegg.com%2fmicrosoft%2f18-3132%2fhomepage_300x120.jpg&icid=481807">Windows 	Computers</a>
+					</li>
+				
+				
+					<li><a href="https://www.newegg.com/Product/ProductList.aspx?Submit=ENE&DEPA=0&Order=BESTMATCH&Description=Apple+computers&N=-1&isNodeId=1">Apple Computers</a></li>
+				</ul>
+			</div>
+		</div>
+			
+		<script>
+			$(document).ready(function(){
+				$("#tabs").tabs();
+			});
+		</script>	
+			
+		</section>
+		<aside>
+			<div id="vert-line"></div>
+			<h2><u>Side Info</u></h2>
+			<p>
+				Phasellus quis purus eget nibh porttitor ultrices eget eu felis. Duis eu lobortis nisl. 
+			</p>
+			
+			<h2><u>Links</u></h2>
+			<ul>
+				<li><a href="index.html"><img src="images/basic_home.png" width="24px" height="24px" alt="other"></a>
+				<a href="index.html">Home</a></li>
+				
+				<li><a href="other.html"><img src="images/basic_webpage_img_txt.png" width="24px" height="24px" alt="other"></a>
+				<a href="other.html">Other</a></li>
+				
+				<li><a href="other2.html"><img src="images/basic_webpage_txt.png" alt="other 2" width="24px" heigh="24px" alt="other 2"></a>
+				<a href="other2.html">Other 2</a></li>
+				
+				<li><a href="images.html"><img src="images/basic_picture_multiple.png" alt="images" width="24px" heigh="24px" alt="images"></a>
+				<a href="images.html">Image Map</a></li>
+				
+				<li><a href="mail.html"><img src="images/basic_mail_open_text.png" 	alt="mail" width="24px" height="24px" alt="mail"></a><a 	href="mail.html">Mail</a></li>
+			</ul>
+			
+			<h3><u>Unordered List</u></h3>
+				<ul class="side-list">
+					<li>Lorem ipsum dolor sit amet, elit. </li>
+					<li>Sed in efficitur velit. </li>
+					<li>Phasellus quis purus eget nibh.</li>
+				</ul>
+			<ul>
+					
+			</ul>
+		</aside>
+		
+	</main>
+	<div id="home-page">
+		<h3><a href="index.html">Back to Home page</a></h3>
+	</div>
+	<footer>
+		<p>This is my footer</p>
+	</footer>
+</body>
+</html>
